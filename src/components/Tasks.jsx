@@ -16,7 +16,7 @@ function Tasks({tasks,onTaskClick,onDeleteTaskClick}) {
               <button className="bg-slate-400 text-white p-2 rounded-md">
                 <ChevronsRightIcon />
               </button>
-              <button onClick={()=>props.onDeleteTaskClick(task.id)} className="bg-slate-400 text-white p-2 rounded-md">
+              <button onClick={()=>onDeleteTaskClick(task.id)} className="bg-slate-400 text-white p-2 rounded-md">
                 <TrashIcon/>
               </button>
             </li>
